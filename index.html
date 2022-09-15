@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>
+        Imersão Dev - Aula 06 - Alura
+    </title>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="page-title">
+            AluraFlix
+        </h1>
+        <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-aluraflix.svg" class="page-logo"
+            alt="">
+        <br>
+
+    </div>
+
+    <a href="https://alura.com.br/" target="_blank">
+        <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+    </a>
+
+    <h1>Tabela de classificação</h1>
+
+    <table style="width: 95%">
+        <thead>
+            <tr>
+                <th style="width: 17%">
+                    Nome
+                </th>
+                <th style="width: 12%">
+                    Vitórias
+                </th>
+                <th style="width: 12%">
+                    Empates
+                </th>
+                <th style="width: 12%">
+                    Derrotas
+                </th>
+                <th style="width: 12%">
+                    Pontos
+                </th>
+                <th colspan="3" style="width: 30%">
+                    Ações
+                </th>
+            </tr>
+        </thead>
+        <tbody id="tabelaJogadores">
+
+        </tbody>
+    </table>
+    <br>
+    <button onclick="zerarPlacar()" class="zerar">
+        Zerar Placar
+    </button>
+
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
